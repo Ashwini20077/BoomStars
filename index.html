@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catch the Stars!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Welcome Screen -->
+  <div id="welcome-screen">
+    <h1>🌟 Catch the Stars!</h1>
+    <p>Click on the falling stars, gems, and bombs to earn points! You have 30 seconds.</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" style="display: none;">
+    <div class="top-bar">
+      <span id="timer">⏱️ Time: 30</span>
+      <span id="score">⭐ Score: 0</span>
+    </div>
+    <div id="game-area"></div>
+  </div>
+
+  <!-- Game Over Screen -->
+  <div id="game-over-screen" style="display: none;">
+    <h2>⏰ Time's up!</h2>
+    <p>You caught <span id="final-score">0</span> points!</p>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+
+  <!-- 🔊 Sound Effects -->
+  <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+  <audio id="blast-sound" src="blast.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
