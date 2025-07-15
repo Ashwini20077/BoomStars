@@ -23,14 +23,6 @@
 
 ---
 
-## 📸 Preview
-
-![BoomStars Screenshot](./images/boomstars-screenshot.png)
-
-> *(Add your screenshot image inside an `images/` folder with above file name.)*
-
----
-
 ## 🎥 Game Demo
 
 [▶️ Click here to watch the demo](./boomstars-demo.mp4)
